@@ -1,3 +1,3 @@
 # Calculadoras criadas:
 IMC
-Operaçõe Aritméticas Básicas
+Operações Aritméticas Básicas
