@@ -14,7 +14,7 @@ namespace calculadoras
 {
     public partial class MenuCalculadoras : Form
     {
-
+    
         public MenuCalculadoras()
         {
             InitializeComponent();
@@ -23,16 +23,16 @@ namespace calculadoras
         private void bt_menu_calcIMC_Click(object sender, EventArgs e)
         {
             this.Hide();
-            CalculadoraIMC formDesejsado = new CalculadoraIMC();
-            formDesejsado.ShowDialog();
+            CalculadoraIMC formDesejasado = new CalculadoraIMC();
+            formDesejasado.ShowDialog();
             this.Show();
         }
 
         private void bt_menu_calcBasic_Click(object sender, EventArgs e)
         {
             this.Hide();
-            CalculadoraBasica formDesejsado = new CalculadoraBasica();
-            formDesejsado.ShowDialog();
+            CalculadoraBasica formDesejasado = new CalculadoraBasica();
+            formDesejasado.ShowDialog();
             this.Show();
         }
 
